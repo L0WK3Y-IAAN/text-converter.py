@@ -62,7 +62,7 @@ def osCheck():
                 subprocess.call(['cls'], shell=True)
 
                 break
-    if platform == "linux" or platform == "linux2":
+    if platform == "linux" or platform == "linux2" or platform == "darwin":
 
         while True:
             try:
